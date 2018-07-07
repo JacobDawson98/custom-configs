@@ -1,0 +1,24 @@
+[color]
+    ui = true
+    branch = true
+    diff = true
+    interactive = true
+    status = true
+[color "status"]
+    added = green
+    changed = red
+    deleted = red
+    untracked = yellow
+[user]
+    name = JacobDawson98
+    email = dawson@iastate.edu
+[push]
+    default = matching
+[alias]
+    co = checkout
+    cb = checkout -b
+    ga = git commit --amend
+    gp = git push origin
+    branch-name = "!git rev-parse --abbrev-ref HEAD"
+    publish = "!git push origin $(git branch-name)"
+    pull-rebase = "!git pull origin $(git branch-name) --rebase"
