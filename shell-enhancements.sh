@@ -49,7 +49,6 @@ alias ping='ping -c 5'      # Pings with 5 packets, not unlimited
 alias gs='git status'
 alias gd='git diff'
 alias gc='git commit'
-alias push='git push origin'
 alias pull='git pull --rebase'
 alias ts='tig status'
 alias delete_pyc='find . -name \*.pyc -exec rm \{\} \+'

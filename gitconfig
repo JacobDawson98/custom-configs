@@ -17,8 +17,8 @@
 [alias]
     co = checkout
     cb = checkout -b
-    ga = git commit --amend
-    gp = git push origin
-    branch-name = "!git rev-parse --abbrev-ref HEAD"
-    publish = "!git push origin $(git branch-name)"
-    pull-rebase = "!git pull origin $(git branch-name) --rebase"
+    ga = commit --amend
+    gp = push origin
+    branch-name = "rev-parse --abbrev-ref HEAD"
+    publish = "push origin $(git branch-name)"
+    pull-rebase = "pull origin $(git branch-name) --rebase"

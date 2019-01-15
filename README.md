@@ -1,4 +1,5 @@
 # custom-configs
-Custom configurations for JarrodCTaylor's dotfiles found here: https://github.com/mattjmorrison/dotfiles
+Custom configurations for JarrodCTaylor/MattJMorrison's dotfiles found here: https://github.com/mattjmorrison/dotfiles
 
-Place this folder in the following directory: /Users/'yourUserName'/dotfiles/custom-configs/custom-configs
+Place this folder in `/Users/'yourUserName'/dotfiles/custom-configs/custom-configs`.
+Then, run `bash ~/dotfiles/install-scripts/OSX/create-symlinks.sh` or `bash ~/dotfiles/install-scripts/Linux/create-symlinks.sh`.
