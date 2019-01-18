@@ -49,19 +49,19 @@ alias ping='ping -c 5'      # Pings with 5 packets, not unlimited
 alias gs='git status'
 alias gd='git diff'
 alias gc='git commit'
-alias pull='git pull --rebase'
+alias co='git checkout'
+alias cb='git checkout -b'
+alias ga='git commit --amend'
+alias branch-name='git rev-parse --abbrev-ref HEAD'
+alias publish='git push origin $(git branch-name)'
+alias push='git push origin $(git branch-name)'
+alias pull='git pull origin $(git branch-name) --rebase'
 alias ts='tig status'
 alias delete_pyc='find . -name \*.pyc -exec rm \{\} \+'
 alias c='clear'
 alias vom='vim'
 alias vi='vim'
-alias co='git checkout'
-alias cb='checkout -b'
-alias ga='git commit --amend'
-alias gp='git push origin'
-alias branch-name="!git rev-parse --abbrev-ref HEAD"
-alias publish="!git push origin $(git branch-name)"
-alias pull-rebase="!git pull origin $(git branch-name) --rebase"
+alias cljs='planck'
 # >>1
 
 # Functions <<1
