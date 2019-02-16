@@ -14,9 +14,9 @@ export PATH=/Applications/Postgres.app/Contents/Versions/latest/bin:$PATH
 # >>2
 # Export JAVA_CMD if jdk is installed (used by lein for compiling local java classes)<<2
 #--------------------------------------------------------------------
-# if [[ -s "/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/java" ]]; then
-#     export JAVA_CMD="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/java"
-# fi
+if [[ -s "/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/java" ]]; then
+    export JAVA_CMD="/Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/java"
+fi
 # So we can Haskell <<2
 #-------------------------------------------------------------------------------
 if [ "$(uname)" = "Darwin" ]; then

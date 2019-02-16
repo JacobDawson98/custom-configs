@@ -14,11 +14,3 @@
     email = dawson@iastate.edu
 [push]
     default = matching
-[alias]
-    co = checkout
-    cb = checkout -b
-    ga = commit --amend
-    gp = push origin
-    branch-name = "rev-parse --abbrev-ref HEAD"
-    publish = "push origin $(git branch-name)"
-    pull-rebase = "pull origin $(git branch-name) --rebase"
