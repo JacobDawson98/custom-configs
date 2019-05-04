@@ -62,6 +62,7 @@ alias c='clear'
 alias vom='vim'
 alias vi='vim'
 alias cljs='planck'
+alias startPg='pg_ctl -D /usr/local/var/postgres start'
 # >>1
 
 # Functions <<1
